@@ -12,4 +12,47 @@ ThemeData greenTheme = ThemeData(
     onSecondaryFixed: Colors.lightGreen,
     outline: Colors.green.shade900,
   ),
+  textTheme: TextTheme(
+    // 1 headline area
+    headlineLarge: GoogleFonts.inter(
+      fontSize: 24,
+      fontWeight: FontWeight.bold,
+    ),
+    headlineMedium: GoogleFonts.inter(
+      fontSize: 18,
+      fontWeight: FontWeight.bold,
+    ),
+    headlineSmall: GoogleFonts.inter(
+      fontSize: 16,
+      fontWeight: FontWeight.bold,
+    ),
+
+    // 2 body area
+    bodyLarge: GoogleFonts.inter(
+      fontSize: 18,
+      fontWeight: FontWeight.normal,
+    ),
+    bodyMedium: GoogleFonts.inter(
+      fontSize: 16,
+      fontWeight: FontWeight.normal,
+    ),
+    bodySmall: GoogleFonts.inter(
+      fontSize: 14,
+      fontWeight: FontWeight.normal,
+    ),
+
+    // 3 display area
+    displayLarge: GoogleFonts.inter(
+      fontSize: 14,
+      fontWeight: FontWeight.w700,
+    ),
+    displayMedium: GoogleFonts.inter(
+      fontSize: 12,
+      fontWeight: FontWeight.w700,
+    ),
+    displaySmall: GoogleFonts.inter(
+      fontSize: 10,
+      fontWeight: FontWeight.w700,
+    ),
+  ),
 );
